@@ -1,0 +1,7 @@
+package com.shopfloor.copilot.repository;
+
+import com.shopfloor.copilot.Machine;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface MachineRepository extends JpaRepository<Machine, Long> {
+}
